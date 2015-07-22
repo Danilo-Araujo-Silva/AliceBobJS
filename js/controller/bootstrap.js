@@ -1,8 +1,8 @@
 requirejs(
   [
-    "forge",
-    "gserializer",
-    "test",
+    "../../vendor/forge/forge",
+    "../../vendor/gserializer/gserializer",
+    "../test/test",
   ],
   function () {
   	console.log("require - sucess", arguments);
